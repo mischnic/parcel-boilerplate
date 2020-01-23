@@ -1,0 +1,36 @@
+{
+  "name": "parcel-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "css-vars-ponyfill": "^2.1.2",
+    "node-sass": "^4.13.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.7.4",
+    "husky": "^4.2.0",
+    "lint-staged": "^10.0.2",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "1.19.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,css,json,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
