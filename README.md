@@ -1,9 +1,17 @@
-# Using Parcel to bundle UI
+# Use Parcel to bundle UI
 
-This is a boilerplate repo to setup:
+Boilerplate setup.
+
+Use Parcel (instead of Webpack or Gulp) to handle
 
 * ES6+ transpilation
-* Sass with PostCSS
-* IE11 fallback for CSS variables
-* Linters and Prettier
+* Sass
+* PostCSS
+
+Additionally, configure
+
+* IE11 ponyfill for CSS variables
+* Eslint, Stylelint, Prettier
 * Git hooks
+
+> Note: linter config files use recommended settings, plus some additional personal (opinionated) settings.

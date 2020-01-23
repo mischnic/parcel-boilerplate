@@ -5,7 +5,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html --open",
@@ -17,10 +17,16 @@
   },
   "devDependencies": {
     "autoprefixer": "^9.7.4",
-    "husky": "^4.2.0",
+    "husky": "^4.2.1",
     "lint-staged": "^10.0.2",
     "parcel-bundler": "^1.12.4",
-    "prettier": "1.19.1"
+    "prettier": "1.19.1",
+    "stylelint": "^13.0.0",
+    "stylelint-config-prettier": "^8.0.1",
+    "stylelint-config-recommended-scss": "^4.1.0",
+    "stylelint-order": "^4.0.0",
+    "stylelint-prettier": "^1.1.2",
+    "stylelint-scss": "^3.13.0"
   },
   "husky": {
     "hooks": {
@@ -28,9 +34,12 @@
     }
   },
   "lint-staged": {
-    "*.{js,css,json,md}": [
-      "prettier --write",
-      "git add"
+    "src/**/*.js": [
+      "prettier --write"
+    ],
+    "src/**/*.scss": [
+      "stylelint --syntax=scss",
+      "prettier --write"
     ]
   }
 }
