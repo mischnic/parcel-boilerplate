@@ -11,10 +11,12 @@ Using Parcel bundler (instead of Webpack or Gulp) to handle
 Additionally, configured
 
 * IE11 ponyfill for CSS variables.
-* Eslint, Stylelint, Prettier.
+* ESLint, Stylelint, Prettier.
 * Git hooks.
 
-> Note: linter config files use recommended settings, plus some additional personal (opinionated) settings.
+> Notes:
+> * Linter config files use recommended settings, plus some additional personal (opinionated) settings - e.g. `eslint-config-airbnb-base`.
+> * This repo is setup for raw JavaScript only - i.e. not TypeScript, or React/Angular/Vue.
 
 ## Test in browser, and build
 
