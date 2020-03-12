@@ -1,0 +1,14 @@
+{
+  "variables": [
+    {
+      "name": "$brand-color",
+      "value": "var(--brand-color, rebeccapurple)",
+      "compiledValue": "var(--brand-color, rebeccapurple)"
+    },
+    {
+      "name": "$brand-color-alt",
+      "value": "tomato",
+      "compiledValue": "tomato"
+    }
+  ]
+}

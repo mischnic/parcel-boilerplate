@@ -1,12 +1,10 @@
-:root {
-  --brand-color: rebeccapurple;
-}
+@import 'colors';
 
 body {
-  color: var(--brand-color);
+  color: $brand-color;
 }
 
 // test PostCSS autoprefixer
 ::placeholder {
-  color: var(--brand-color);
+  color: $brand-color;
 }

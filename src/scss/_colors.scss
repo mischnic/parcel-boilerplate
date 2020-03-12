@@ -1,0 +1,6 @@
+:root {
+  --brand-color: rebeccapurple;
+}
+
+$brand-color: var(--brand-color, rebeccapurple);
+$brand-color-alt: tomato;

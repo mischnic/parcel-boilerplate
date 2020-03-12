@@ -4,7 +4,7 @@ import cssVars from 'css-vars-ponyfill';
 // CSS vars ponyfill for IE11
 cssVars();
 
+/* eslint-disable no-alert, no-console */
 // test ES6 transpilation
 const hello = 'hello';
-// eslint-disable-next-line no-alert
 alert(hello);
