@@ -7,6 +7,5 @@ import cssVars from 'css-vars-ponyfill';
 cssVars();
 
 /* eslint-disable no-alert, no-console */
-// test ES6 transpilation
-const hello = 'hello';
+const hello = 'ES6 const works!';
 alert(hello);
