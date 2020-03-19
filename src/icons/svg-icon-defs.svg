@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="display: none;">
+    <symbol id="icon-search" viewBox="0 0 100 100">
+        <path d="M90,87.2L75.4,72.6c6-6.6,9.6-15.4,9.6-25.1C85,26.8,68.2,10,47.5,10S10,26.8,10,47.5S26.8,85,47.5,85
+        c9.6,0,18.4-3.6,25.1-9.6L87.2,90L90,87.2z M47.5,81C29,81,14,66,14,47.5C14,29,29,14,47.5,14S81,29,81,47.5C81,66,66,81,47.5,81z"/>
+    </symbol>
+
+    <symbol id="icon-right-arrow" viewBox="0 0 100 100">
+        <path d="M40,80l-2.8-2.8L64.3,50L37.2,22.8L40,20l30,30L40,80z"/>
+    </symbol>
+
+    <symbol id="icon-left-arrow" viewBox="0 0 100 100">
+        <path d="M60,20l2.8,2.8L35.7,50l27.1,27.2L60,80L30,50L60,20z"/>
+    </symbol>
+
+    <symbol id="icon-up-arrow" viewBox="0 0 100 100">
+        <path d="M80,60l-2.8,2.8L50,35.7L22.8,62.8L20,60l30-30L80,60z"/>
+    </symbol>
+
+    <symbol id="icon-down-arrow" viewBox="0 0 100 100">
+        <path d="M20,40l2.8-2.8L50,64.3l27.2-27.1L80,40L50,70L20,40z"/>
+    </symbol>
+
+    <symbol id="icon-plus" viewBox="0 0 100 100">
+        <path d="M80,48H52V20h-4v28H20v4h28v28h4V52h28V48z"/>
+    </symbol>
+</svg>

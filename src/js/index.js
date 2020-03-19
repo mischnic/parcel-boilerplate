@@ -1,4 +1,6 @@
 import '../scss/index.scss';
+import '../icons/svg-icon-defs.svg';
+
 import cssVars from 'css-vars-ponyfill';
 
 // CSS vars ponyfill for IE11
