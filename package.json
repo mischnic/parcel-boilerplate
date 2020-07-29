@@ -8,8 +8,7 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel src/js/index.js --port 1234 --no-cache",
-    "start:html": "parcel index.html --port 1234 --open --target app",
+    "start": "parcel index.html --port 1234 --open --target app",
     "build": "parcel build index.html"
   },
   "dependencies": {
@@ -56,12 +55,6 @@
     "defaults"
   ],
   "targets": {
-    "app": {
-      "engines": {
-        "browsers": [
-          "> 1%", "not dead"
-        ]
-      }
-    }
+    "app": {}
   }
 }

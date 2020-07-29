@@ -1,0 +1,24 @@
+:root {
+  --brand-color: rebeccapurple;
+}
+
+body {
+  color: var(--brand-color, rebeccapurple);
+}
+
+::-moz-placeholder {
+  color: var(--brand-color, rebeccapurple);
+}
+
+:-ms-input-placeholder {
+  color: var(--brand-color, rebeccapurple);
+}
+
+::-ms-input-placeholder {
+  color: var(--brand-color, rebeccapurple);
+}
+
+::placeholder {
+  color: var(--brand-color, rebeccapurple);
+}
+/*# sourceMappingURL=index.1751b35a.css.map */
