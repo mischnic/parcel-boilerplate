@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Parcel UI</title>
+    <link href="http://localhost:1234/index.css" rel="stylesheet" />
 </head>
 <body>
   <h1>Using Parcel to bundle UI</h1>
@@ -18,17 +19,6 @@
     <li>Git hooks.</li>
   </ul>
 
-  <h2>Test <code>SVG</code> icon sprite bundling</h2>
-  <svg
-    role="img"
-    aria-labelledby="title-icon-plus"
-    focusable="false"
-    class="svg-icon"
-  >
-    <title id="title-icon-plus">Open</title>
-    <use xlink:href="dist/svg-icon-defs.f3fae6c2.svg#icon-plus" />
-  </svg>
-
-  <script src="src/js/index.js"></script>
+    <script defer src="http://localhost:1234/index.js"></script>
 </body>
 </html>

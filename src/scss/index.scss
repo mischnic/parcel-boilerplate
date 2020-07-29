@@ -4,13 +4,6 @@ body {
   color: $brand-color;
 }
 
-.svg-icon {
-  fill: currentColor;
-  flex-shrink: 0;
-  height: 4em;
-  width: 4em;
-}
-
 // test PostCSS autoprefixer
 ::placeholder {
   color: $brand-color;

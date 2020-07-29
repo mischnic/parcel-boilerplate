@@ -8,15 +8,16 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel index.html --open",
+    "start": "parcel src/js/index.js --port 1234 --no-cache",
+    "start:html": "parcel index.html --port 1234 --open --target app",
     "build": "parcel build index.html"
   },
   "dependencies": {
-    "css-vars-ponyfill": "^2.1.2",
-    "node-sass": "^4.13.1"
+    "css-vars-ponyfill": "^2.1.2"
   },
   "devDependencies": {
     "autoprefixer": "^9.7.4",
+    "babel-loader": "^8.1.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-config-prettier": "^6.9.0",
@@ -24,8 +25,9 @@
     "eslint-plugin-prettier": "^3.1.2",
     "husky": "^4.2.1",
     "lint-staged": "^10.0.2",
-    "parcel-bundler": "^1.12.4",
+    "parcel": "^2.0.0-nightly.352",
     "prettier": "1.19.1",
+    "rimraf": "^3.0.1",
     "sass": "^1.25.0",
     "sass-export": "^1.0.6",
     "stylelint": "^13.0.0",
@@ -49,5 +51,17 @@
       "stylelint --syntax=scss",
       "prettier --write"
     ]
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "targets": {
+    "app": {
+      "engines": {
+        "browsers": [
+          "> 1%", "not dead"
+        ]
+      }
+    }
   }
 }
